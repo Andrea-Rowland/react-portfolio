@@ -7,7 +7,7 @@ import runBuddy from "../../assets/work/run-buddy.JPG"
 function Work() {
     
     return (
-    <div>
+    <React.Fragment>
         <h1>My Work</h1>
             <article class="first">
                 <a href="https://strategic-home-inspection.herokuapp.com/" target="_blank">
@@ -27,7 +27,7 @@ function Work() {
                 <label for="run-buddy" class="project-title">Run Buddy</label>
                 </a>
             </article>
-    </div>
+    </React.Fragment>
     )
 }
 
