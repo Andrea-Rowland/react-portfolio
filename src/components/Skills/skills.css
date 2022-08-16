@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: #39a6b2;
+    --secondary-color: #ddb83d;
+    --tertiary-color: #f5f3e7;
+    --quaternary-color:#131003;
+}
+
+body {
+    color: var(--quaternary-color);
+    font-family: Arial, Helvetica, sans-serif
+
+}
+
+.skills {
+    color: var(--secondary-color);
+}
+.section-title {
+    color: var(--secondary-color);
+}
+
+

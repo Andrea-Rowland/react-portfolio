@@ -8,7 +8,8 @@ function Work() {
     
     return (
     <React.Fragment>
-        <h1>My Work</h1>
+        <div className="work">
+        <h1 className="section-title">My Work</h1>
             <article class="first">
                 <a href="https://strategic-home-inspection.herokuapp.com/" target="_blank">
                     <img src={strategicHome} className="my-2" style={{ width: "80%" }} alt="strategicHome" />
@@ -27,6 +28,7 @@ function Work() {
                 <label for="run-buddy" class="project-title">Run Buddy</label>
                 </a>
             </article>
+            </div>
     </React.Fragment>
     )
 }
