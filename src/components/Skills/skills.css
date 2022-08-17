@@ -22,6 +22,10 @@ body {
     color: var(--secondary-color);
 }
 
+.section-title {
+    color: #ddb83d !important;
+}
+
 .skillset {
     display: flex;
     color: var(--secondary-color);

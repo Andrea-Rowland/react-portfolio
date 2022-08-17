@@ -27,3 +27,39 @@ body {
 .work h1 {
     color: var(--primary-color);
 }
+
+.work-examples article {
+    background-color: var(--quaternary-color);
+}
+
+.work-examples article:first-child {
+    width: 90%;
+}
+
+.work-examples a {
+    flex: 1 1 0%;
+}
+
+.work-examples a img {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+    object-position: 0% 0%;
+}
+
+
+.work-examples label{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 5vh;
+    text-align: center;
+    background-color: var(--quaternary-color);
+    color: var(--primary-color);
+    padding: 1vh;
+}
+
+.project-flex{
+    display: flex;
+}
