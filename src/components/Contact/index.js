@@ -1,7 +1,8 @@
 import React from 'react';
-
+import { validateEmail } from '../../utils/helper';
 
 function Contact() {
+    
     return (
         <React.Fragment>
     <div>

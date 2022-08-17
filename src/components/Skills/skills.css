@@ -18,9 +18,16 @@ body {
 }
 
 .skills {
+    background-color: var(--quaternary-color);
     color: var(--secondary-color);
 }
-.section-title {
+
+.skillset {
+    display: flex;
+    color: var(--secondary-color);
+}
+
+.group1 {
     color: var(--secondary-color);
 }
 
