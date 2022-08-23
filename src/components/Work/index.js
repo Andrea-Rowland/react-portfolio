@@ -1,7 +1,7 @@
 import React from 'react';
 import strategicHome from "../../assets/work/Screenshot-main.JPG"
 import serenityNow from "../../assets/work/SN-screenshot.JPG"
-import runBuddy from "../../assets/work/run-buddy.JPG"
+import jennaLouise from "../../assets/work/Website Screenshot.JPG"
 import './work.css';
 
 
@@ -10,24 +10,24 @@ function Work() {
     return (
         <React.Fragment>
             <div className="work">
-                <h1 className="section-title">My Work</h1>
-                <article class="first">
-                    <a href="https://strategic-home-inspection.herokuapp.com/" target="_blank">
-                        <img src={strategicHome} className="my-2" style={{ width: "80%" }} alt="strategicHome" />
-                        <label for="first-sample">Strategic Investments Home Inspection</label>
+                <h1 className="section-title-work">My Work</h1>
+                <article className="first">
+                    <a href="https://artofjenna.herokuapp.com/" target="_blank">
+                        <img src={jennaLouise} className="my-2" style={{ width: "90%" }} alt="jennaLouise" />
+                        <label for="first-sample">Art of Jenna Louise</label>
                     </a>
                 </article>
                 <div className='project-flex'>
                     <article>
                         <a href="https://andrea-rowland.github.io/serenity-now/" target="_blank">
-                            <img src={serenityNow} className="my-2" style={{ width: "80%" }} alt="serenityNow" />
+                            <img src={serenityNow} className="my-2" style={{ width: "70%" }} alt="serenityNow" />
                             <label for="serenity-now" class="project-title">Serenity Now</label>
                         </a>
                     </article>
                     <article>
-                        <a href="https://andrea-rowland.github.io/run-buddy/" target="_blank">
-                            <img src={runBuddy} className="my-2" style={{ width: "80%" }} alt="runBuddy" />
-                            <label for="run-buddy" class="project-title">Run Buddy</label>
+                        <a href="https://strategic-home-inspection.herokuapp.com/" target="_blank">
+                            <img src={strategicHome} className="my-2" style={{ width: "90%" }} alt="strategicHome" />
+                            <label for="strategic-home" class="project-title">Strategic Home</label>
                         </a>
                     </article>
                 </div>

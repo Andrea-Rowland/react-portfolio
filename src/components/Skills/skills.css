@@ -22,17 +22,30 @@ body {
     color: var(--secondary-color);
 }
 
-.section-title {
+.section-title-skills {
     color: #ddb83d !important;
+    display:flex;
+    text-align: center;
+    justify-content: center;
 }
 
 .skillset {
     display: flex;
     color: var(--secondary-color);
-}
+    font-size: 25px;
+    line-height: 0.008;
+    padding-bottom: 75px;
 
-.group1 {
-    color: var(--secondary-color);
-}
+ }
+
+ .group1 {
+    width: 33%;
+    
+ }
+
+ .group2 {
+    width: 33%;
+ }
+
 
 

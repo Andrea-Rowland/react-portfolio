@@ -4,7 +4,7 @@ import './skills.css';
 function Skills() {
     return (
         <div className="skills">
-            <h1 className="section-title">My Skills</h1>
+            <h1 className="section-title-skills">My Skills</h1>
             <ul className="skillset">
                 <div className="group1">
                     <li>HTML5</li>
