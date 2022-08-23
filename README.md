@@ -4,7 +4,7 @@
 This is a portfolio showing my information and the projects I've worked on using React.
 
 ## Screenshot
-![andrea-rowland-haag-react-portfolio](./src/assets/Website%20Screenshot.JPG)
+![andrea-rowland-haag-react-portfolio](./public/photos/React%20Portfolio%20Screenshot.JPG)
 
 ## Technologies Used
 * HTML
